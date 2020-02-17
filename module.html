@@ -580,7 +580,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.js"></script>
 <script>
     $( ".nav-page ul li" ).click(function() {
-        $(this).addClass("is-active");
+        $(this).toggleClass("is-active");
     });
 	 $(".nav-page ul li:first-child").click(function(){
          $(".nav-page ul li").removeClass("is-active");
