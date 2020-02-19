@@ -259,22 +259,25 @@
 
 /* grille colonage */
 [class*="col-"] {
-    margin-left: 0;
-    margin-right: 0; }
-.col-1 { width: 8.33333% !important; }
-.col-2 { width: 16.66667% !important; }
-.col-3 { width: 25% !important; }
-.col-4 { width: 33.33333% !important; }
-.col-5 { width: 41.66667% !important; }
-.col-5half { width: 49.5% !important; }
-.col-6 { width: 50% !important; }
-.col-7 { width: 58.33333% !important; }
-.col-8 { width: 66.66667% !important; }
-.col-9 { width: 75% !important; }
-.col-10 { width: 83.33333% !important; }
-.col-11 { width: 91.66667% !important; }
-.col-12 { width: 100% !important; }
+    margin-left: 15px;
+    margin-right: 15px;
+    width:100%;}
+@media (min-width:1230px){
+    .col-1 { width: 8.33333% !important; }
+    .col-2 { width: 16.66667% !important; }
+    .col-3 { width: 25% !important; }
+    .col-4 { width: 33.33333% !important; }
+    .col-5 { width: 41.66667% !important; }
+    .col-5half { width: 49.5% !important; }
+    .col-6 { width: 50% !important; }
+    .col-7 { width: 58.33333% !important; }
+    .col-8 { width: 66.66667% !important; }
+    .col-9 { width: 75% !important; }
+    .col-10 { width: 83.33333% !important; }
+    .col-11 { width: 91.66667% !important; }
+    .col-12 { width: 100% !important; }
 
+}
 /* position */
 .pos-absolute { position: absolute; }
 .pos-relative { position: relative; }
