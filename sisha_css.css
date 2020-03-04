@@ -259,8 +259,8 @@
 
 /* grille colonage */
 [class*="col-"] {
-    margin-left: 15px;
-    margin-right: 15px;
+    /*margin-left: 15px;
+    margin-right: 15px;*/
     width:100%;}
 @media (min-width:1230px){
     .col-1 { width: 8.33333% !important; }
