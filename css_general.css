@@ -29,7 +29,7 @@ header .header_content .logo a p, .titre_module {color:rgba(224, 8, 46, .8);}
 /* HOME */
 .home .intro {background-color:transparent;}
 .home h2 {border-bottom:none; margin:0; margin-top:2vw;}
-.home .feature-card {position: relative;display: flex;height: 100%;color: #575c61;background-color: #f7f8f9;padding:1vw; font-size:1.25rem;}
+.home .feature-card {position: relative;display: flex;height: 100%;color: #575c61;background-color: #f7f8f9;padding:1vw; font-size:1.25rem; width:16em; margin-right:1rem; margin-bottom:1rem;}
 .home .feature-card-icon {margin-right:1rem;margin-top:1.6rem;}
 .home .feature-card h4 {font-size: 1.25rem;margin-bottom: 1rem;}
 .home .col-12:nth-of-type(2) .col-8 {margin:4vw 0;}
