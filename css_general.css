@@ -1,57 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap'); /*font-family: 'Barriecito', cursive;*/
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap'); /*font-family: 'Indie Flower', cursive;*/
-body {font-family: 'Nanum Gothic', sans-serif; margin:0; padding:0; color:#575c61; line-height:1.75;}
-html {font-size:16px; scroll-behavior: smooth;}
-*, *::before, *::after {box-sizing: inherit;}
-li{list-style-type: none;}
-a {text-decoration: none; color:#575c61;}
-li a:hover {color:#e0082e;}
+body {font-family: 'Nanum Gothic', sans-serif;}
+a {text-decoration: none; color:#000000;}
+a:hover {color:#696969;}
 img{border:0;}
 a, p, img {margin:0; padding:0;}
-p {margin-top:10px; font-weight:400;}
-h2 {border-bottom:1px solid #d4d5d7; font-size:2vw; padding-bottom:.5vw; color:#575c61;}
-.header_content .logo img {width:350px; height:114px;}
-.header_content .logo p:nth-child(2){font-family: 'Barriecito', cursive; top:5%; left:0;}
-.header_content .logo p:nth-child(3){font-family: 'Indie Flower', cursive; top:35%; left:0;}
-
-ul li.tutos:hover {border-bottom:5px solid #ffffff;}
-ul ul.submenu {visibility: hidden; position: absolute; top: 90%; left: 0; width: 450px;}
-ul ul.submenu li { float: none; }
-ul ul.submenu li a {color:#ffffff;}
-ul ul.submenu li a:hover {color:#ffffff;}
-ul ul.submenu ul { top: -2px; left: 100%;}
-ul li:hover > ul.submenu { visibility: visible;}
-
-.slider, .intro, header {background-color:rgba(224, 8, 46, .8);}
-header .header_content .logo a p, .titre_module {color:rgba(224, 8, 46, .8);}
-
-/* HOME */
-.home .intro {background-color:transparent;}
-.home h2 {border-bottom:none; margin:0; margin-top:2vw;}
-.home .feature-card {position: relative;display: flex;height: 100%;color: #575c61;background-color: #f7f8f9;padding:1vw; font-size:1.25rem; width:16em; margin-right:1rem; margin-bottom:1rem;}
-.home .feature-card-icon {margin-right:1rem;margin-top:1.6rem;}
-.home .feature-card h4 {font-size: 1.25rem;margin-bottom: 1rem;}
-.home .col-12:nth-of-type(2) .col-8 {margin:4vw 0;}
-
-/* PAGE MODULE*/
-/* Nav page */
-.module .nav-page ul li a {display:block; border-bottom: .09em solid transparent}
-.module .nav-page ul li:first-child::before {display: none;}
-/*.module .nav-page ul li::before {width:.5rem; height:100%; position:absolute; bottom:calc(100% - 1rem);left:0;}*/
-.module .nav-page ul li::after {width:.5rem; height:.5rem; position:absolute; top:.75rem; left:0; border-radius:50%; background-color:currentColor;}
-.module .nav-page ul li::before,.module .nav-page ul li::after {content:''; display:block;}
-.module .nav-page ul li.is-active::before,.nav-page ul li.is-active::after {background-color:rgba(224, 8, 46, .8);}
-.module .nav-page .is-active .heading {color:rgba(224, 8, 46, .8);}
-.module .nav-page .heading {font-size:1.125rem; font-weight:900;}
-.module .nav-page p {margin:0; padding:0;}
-.module .nav-page ul {position: -webkit-sticky !important; position:sticky!important; top:-1px;}
-.module .nav-page ul li {color:#cccecf; position: relative; padding-left:1vw; transition: color .2s; font-size:1.1vw;}
-/*/*/
-.module code {background-color: #eee; padding:3px;}
-.module .warning-box {background-color:#fef8e9; border:1px solid #fbe7b9; margin:1vw 0; padding:1vw .5vw 0;}
-.module .separator {margin:0;}
-.module .img-box {background-color:#575c61; border:1px solid #313538; margin:1vw 0; padding-top:1vw; text-align:center;}
-.module .img-box img {max-width:30vw;}
-.module .img-box p {color:#ffffff; font-size:.8vw; background-color:rgba(255,255,255,.1); padding:.2vw; margin:0;}
-.module .multi-img img {width:13vw;}
